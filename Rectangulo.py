@@ -11,4 +11,4 @@ class Rectangulo:
         return 2*(self.base+self.altura)
 
     def diagonal(self):
-        return (self.altura*2 + self.base*2)**0.5
+        return (self.altura**2 + self.base**2)**0.5
